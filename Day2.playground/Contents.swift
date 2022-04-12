@@ -1,10 +1,10 @@
 import Cocoa
 
-var greeting = "Hello, Day 2"
+var greet = "Hello, Day 2"
 
 let goodDogs = true
 
-let gameOver = false
+var gameOver = false
 print(gameOver)
 gameOver.toggle()
 print(gameOver)
@@ -17,3 +17,21 @@ print(isAuthenticated)
 isAuthenticated = !isAuthenticated
 print(isAuthenticated)
 
+
+
+let firstPart = "Hello"
+let secondPart = "Everybody!"
+let greeting = firstPart + secondPart
+print(greeting)
+
+let people = "haters"
+let action = "hate"
+let lyric = people + " gonna " + action
+
+let name = "taytay"
+let age = 29
+let saying = "hello my name is \(name), and i am \(age)"
+print(lyric)
+print(saying)
+
+print("5x5 is \(5*5)")
