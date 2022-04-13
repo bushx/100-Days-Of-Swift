@@ -82,3 +82,20 @@ archEnemies["Supes"]="Honesty"
 print(archEnemies)
 archEnemies["Batman"]="A Clown"
 print(archEnemies)
+
+
+let actors = Set([
+    "Denzel Washington",
+    "Chadwick Boseman",
+    "Tyler Perry",
+    "Donald Trump"
+])
+
+print(actors)
+
+var authors = Set<String>()
+authors.insert("Neil Gaiman")
+authors.insert("Mark Twain")
+authors.insert("J.K. Rowling")
+print(authors)
+
