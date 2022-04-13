@@ -43,7 +43,42 @@ let cities = ["tokyo", "london", "New york", "calgary"]
 print(cities)
 print(cities.sorted())
 
-let presidents = ["Bush","Obama","Ivanka","Biden"]
+let presidents = ["Cheney","Obama","Ivanka","Biden"]
 let reversedPresidents = presidents.reversed()
 print(presidents)
 print(reversedPresidents)
+
+
+var employee = ["taylor", "dancer", "london"]
+print("Name: \(employee[0])")
+print("Job: \(employee[1])")
+
+let employee2 = ["Name":"Britanny", "Job":"Mogul", "Location":"Vegas"]
+print(employee2)
+print(employee2["Name", default: "Unkown"])
+
+let hasGraduated = [
+    "eric": false,
+    "Bush": true
+]
+
+let olympics=[
+    2012: "London",
+    2016: "Rio de Janerio",
+    2021: "Tokyo"
+]
+
+print(olympics[2012, default: "Unkown"])
+
+var heights =  [String:Int]()
+heights["Yao Ming"]=229
+heights["Shaq"]=228
+heights["Lebron"]=216
+print(heights)
+
+var archEnemies = [String:String]()
+archEnemies["Batman"]="PTSD"
+archEnemies["Supes"]="Honesty"
+print(archEnemies)
+archEnemies["Batman"]="A Clown"
+print(archEnemies)
