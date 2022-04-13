@@ -99,3 +99,17 @@ authors.insert("Mark Twain")
 authors.insert("J.K. Rowling")
 print(authors)
 
+
+
+var selected = "Monday"
+selected = "Tuesday"
+selected = "January"
+selected = " Friday "
+
+enum Weekday{
+    case Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+}
+
+var day = Weekday.Friday
+day = .Sunday
+day = .Wednesday
