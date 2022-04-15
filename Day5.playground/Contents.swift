@@ -133,5 +133,25 @@ case 2:
     fallthrough
 default:
     print("and a partridge in a pear tree")
-    
 }
+
+let myAge = 18
+let canVote = myAge >= 18 ? "yes" : "no"
+//WTF, what we check, True? False?
+
+let hour = 23
+
+print(hour<12 ? "it is before noon" : "It is AFTER noon")
+
+let names = ["Jaymie", "Jayne", "Mal"]
+let crewCount = names.isEmpty ? "Nobodyyyy" : "\(names.count) people"
+print(crewCount)
+
+enum Theme {
+    case light, dark
+}
+
+let theme = Theme.dark
+
+let background = theme == .dark ? "black" : "white"
+print(background)
