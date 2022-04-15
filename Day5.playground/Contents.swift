@@ -54,9 +54,34 @@ var name = "Taytay"
 
 if name.isEmpty{
     name = "Anon"
+}else{
+    print("Hello \(name)")
 }
 
-if name != "Anon"{
-    print("Hello \(name)")
+let temp = 25
+
+if temp > 20 && temp < 30{
+    print("It's a nice day")
+}
+
+let userAge = 14
+let hasParentalConsent = true
+
+if age>=18 || hasParentalConsent{
+    print("You can buy Grand Theft Auto")
+}
+
+enum TransportOption{
+    case plane, car, train, bike
+}
+
+let transport = TransportOption.plane
+
+if transport == .plane{
+    print("Lets Fly!")
+}else if transport == .bike || transport == .car{
+    print("Watch Out For Transportations!")
+} else {
+    print("People still take the rail?")
 }
 
