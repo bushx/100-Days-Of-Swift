@@ -85,3 +85,53 @@ if transport == .plane{
     print("People still take the rail?")
 }
 
+enum Weather {
+    case sun, rain, snow, wind, unknown
+}
+
+let forecast = Weather.wind
+
+switch forecast{
+case .sun:
+    print("What a beautiful day")
+case .rain:
+    print("Bring an umbrella")
+case .snow:
+    print("School is closed")
+case .wind:
+    print("watch for flying cows")
+case .unknown:
+    print("Uh oh our machine is broken")
+}
+
+let place = "Metropolis"
+switch place {
+case "Gotham":
+    print("Im calling Gordon on you")
+case "Wakanda":
+    print("Wakanda Forever")
+case "Jump City":
+    print("Wheres Raven at")
+default:
+    print("Who are you!")
+}
+
+let day = 5
+print("My true love gave to me...")
+switch day {
+case 5:
+    print("5 golden rings")
+    fallthrough
+case 4:
+    print("4 calling birds")
+    fallthrough
+case 3:
+    print("3 French hens")
+    fallthrough
+case 2:
+    print("2 turtle doves")
+    fallthrough
+default:
+    print("and a partridge in a pear tree")
+    
+}
